@@ -157,6 +157,33 @@ body {
   gap: 1rem;
 }
 
+.icon {
+  cursor: pointer;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-size: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.facebook {
+  background-image: url(./images/icon-facebook.svg);
+}
+
+.x {
+  background-image: url(./images/icon-twitter.svg);
+}
+
+.pinterest {
+  background-image: url(./images/icon-pinterest.svg);
+}
+
+.facebook:hover,
+.x:hover,
+.pinterest:hover {
+  transform: scale(130%);
+}
+
 .button-share {
   background-color: var(--clr-light-grayish-blue);
   display: flex;
